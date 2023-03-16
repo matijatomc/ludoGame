@@ -4,11 +4,15 @@ C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceN
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\bin\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.dll
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\bin\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.pdb
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.csproj.AssemblyReference.cache
+C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Igra.g.cs
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Povijest.g.cs
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe_MarkupCompile.cache
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe_MarkupCompile.lref
+C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Igra.baml
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Povijest.baml
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.g.resources
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.AssemblyInfoInputs.cache
@@ -19,7 +23,3 @@ C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceN
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.pdb
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\trbojevicTomcCovjeceNeLjutiSe.genruntimeconfig.cache
 C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\ref\trbojevicTomcCovjeceNeLjutiSe.dll
-C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Igra.g.cs
-C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Povijest.g.cs
-C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Igra.baml
-C:\Users\Matija\source\repos\trbojevicTomcCovjeceNeLjutiSe\trbojevicTomcCovjeceNeLjutiSe\obj\Debug\net6.0-windows\Povijest.baml

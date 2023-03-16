@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:trbojevicTomcCovjeceNeLjutiSe"
         mc:Ignorable="d"
-        Title="Igra" Height="450" Width="800">
-    <Grid>
-        
+        Title="Igra" Height="900" Width="1084">
+    <Window.Background>
+        <ImageBrush ImageSource="/Slike/Ploca/ploca.png"/>
+    </Window.Background>
+    <Grid Margin="0,10,0,-6" Background="{Binding ElementName=image, Mode=OneWay}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btnBaciKocku" Content="" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Click="btnBaciKocku_Click" Height="116" Width="116" Background="{x:Null}" RenderTransformOrigin="0.501,0.485"/>
+        <Image x:Name="kocka" HorizontalAlignment="Left" Height="100" Margin="912,61,0,0" VerticalAlignment="Top" Width="100" Source="/Slike/Kocka/1.png" RenderTransformOrigin="-4.329,0.607"/>
+        <TextBox x:Name="txt" HorizontalAlignment="Left" Margin="892,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Image HorizontalAlignment="Left" Height="51" Margin="137,146,0,0" VerticalAlignment="Top" Width="63" Source="/Slike/Pijuni/zeleni.png"/>
+
     </Grid>
 </Window>
