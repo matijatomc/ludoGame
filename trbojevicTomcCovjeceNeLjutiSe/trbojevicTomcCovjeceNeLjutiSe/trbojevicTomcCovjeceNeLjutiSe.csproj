@@ -14,11 +14,16 @@
     <None Remove="4.png" />
     <None Remove="5.png" />
     <None Remove="6.png" />
+    <None Remove="crveni.png" />
+    <None Remove="plavi.png" />
     <None Remove="ploca5.png" />
     <None Remove="zeleni.png" />
+    <None Remove="zuti.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Slike\Pijuni\crveni.png" />
+    <Resource Include="Slike\Pijuni\plavi.png" />
     <Resource Include="Slike\Ploca\ploca.png" />
     <Resource Include="Slike\Kocka\2.png" />
     <Resource Include="Slike\Kocka\3.png" />
@@ -27,6 +32,7 @@
     <Resource Include="Slike\Kocka\6.png" />
     <Resource Include="Slike\Kocka\1.png" />
     <Resource Include="Slike\Pijuni\zeleni.png" />
+    <Resource Include="Slike\Pijuni\zuti.png" />
   </ItemGroup>
 
 </Project>
