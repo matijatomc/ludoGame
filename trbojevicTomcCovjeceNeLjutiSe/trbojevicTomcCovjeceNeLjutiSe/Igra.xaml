@@ -5,102 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:trbojevicTomcCovjeceNeLjutiSe"
         mc:Ignorable="d"
-        Title="Igra" Height="900" Width="1084" ResizeMode="NoResize"
+        Title="Igra" Height="621" Width="763"
         Loaded="Window_Loaded">
-    <Window.Background>
-        <ImageBrush ImageSource="/Slike/Ploca/ploca.png"/>
-    </Window.Background>
-    <Grid Margin="36,10,32,30" Background="{Binding ElementName=image, Mode=OneWay}">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-
-        <Button x:Name="btnBaciKocku" Content="" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Click="btnBaciKocku_Click" Height="116" Width="116" RenderTransformOrigin="0.501,0.485" BorderBrush="{x:Null}" Foreground="{x:Null}">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Kocka/1.png"/>
-            </Button.Background>
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="563" Margin="10,0,0,0" VerticalAlignment="Center" Width="591" Source="/Slike/Ploca/ploca.png" Stretch="Fill"/>
+        <Label x:Name="lblZeleni" Content="0" HorizontalAlignment="Left" Margin="287,0,0,0" VerticalAlignment="Center"/>
+        <Label x:Name="lblPlavi" Content="0" HorizontalAlignment="Left" Margin="306,0,0,0" VerticalAlignment="Center"/>
+        <Label x:Name="lblCrveni" Content="0" HorizontalAlignment="Left" Margin="297,288,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblZuti" Content="0" HorizontalAlignment="Left" Margin="297,270,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnZeleni1" HorizontalAlignment="Left" Height="35" Margin="85,114,0,0" VerticalAlignment="Top" Width="34" Click="btnZeleni1_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zeleni.png"/>
         </Button>
-        <Button x:Name="pijunZeleni1" Content="" HorizontalAlignment="Left" Margin="95,150,0,0" VerticalAlignment="Top" Height="53" Width="67" Click="pijunZeleni1_Click" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zeleni.png"/>
-            </Button.Background>
+        <Button x:Name="btnZeleni2" HorizontalAlignment="Left" Height="35" Margin="122,80,0,0" VerticalAlignment="Top" Width="34" Click="btnZeleni2_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zeleni.png"/>
         </Button>
-        <Button x:Name="pijunZeleni2" Content="" HorizontalAlignment="Left" Margin="163,97,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zeleni.png"/>
-            </Button.Background>
+        <Button x:Name="btnZeleni3" HorizontalAlignment="Left" Height="35" Margin="159,114,0,0" VerticalAlignment="Top" Width="34" Click="btnZeleni3_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zeleni.png"/>
         </Button>
-        <Button x:Name="pijunZeleni3" Content="" HorizontalAlignment="Left" Margin="231,150,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zeleni.png"/>
-            </Button.Background>
+        <Button x:Name="btnZeleni4" HorizontalAlignment="Left" Height="35" Margin="122,149,0,0" VerticalAlignment="Top" Width="34" Click="btnZeleni4_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zeleni.png"/>
         </Button>
-        <Button x:Name="pijunZeleni4" Content="" HorizontalAlignment="Left" Margin="163,206,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zeleni.png"/>
-            </Button.Background>
+        <Button x:Name="btnZuti1" HorizontalAlignment="Left" Height="35" Margin="418,115,0,0" VerticalAlignment="Top" Width="34" Click="btnZuti1_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zuti.png"/>
         </Button>
-        <Button x:Name="pijunZuti1" Content="" HorizontalAlignment="Left" Margin="699,152,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zuti.png"/>
-            </Button.Background>
+        <Button x:Name="btnZuti2" HorizontalAlignment="Left" Height="35" Margin="455,80,0,0" VerticalAlignment="Top" Width="34" Click="btnZuti2_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zuti.png"/>
         </Button>
-        <Button x:Name="pijunZuti2" Content="" HorizontalAlignment="Left" Margin="767,96,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zuti.png"/>
-            </Button.Background>
+        <Button x:Name="btnZuti3" HorizontalAlignment="Left" Height="35" Margin="492,115,0,0" VerticalAlignment="Top" Width="34" Click="btnZuti3_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zuti.png"/>
         </Button>
-        <Button x:Name="pijunZuti3" Content="" HorizontalAlignment="Left" Margin="835,152,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zuti.png"/>
-            </Button.Background>
+        <Button x:Name="btnZuti4" HorizontalAlignment="Left" Height="35" Margin="455,150,0,0" VerticalAlignment="Top" Width="34" Click="btnZuti4_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/zuti.png"/>
         </Button>
-        <Button x:Name="pijunZuti4" Content="" HorizontalAlignment="Left" Margin="767,206,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/zuti.png"/>
-            </Button.Background>
+        <Button x:Name="btnPlavi1" HorizontalAlignment="Left" Height="35" Margin="418,432,0,0" VerticalAlignment="Top" Width="34" Click="btnPlavi1_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/plavi.png"/>
         </Button>
-        <Button x:Name="pijunPlavi1" Content="" HorizontalAlignment="Left" Margin="699,635,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/plavi.png"/>
-            </Button.Background>
+        <Button x:Name="btnPlavi2" HorizontalAlignment="Left" Height="35" Margin="455,396,0,0" VerticalAlignment="Top" Width="34" Click="btnPlavi2_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/plavi.png"/>
         </Button>
-        <Button x:Name="pijunPlavi2" Content="" HorizontalAlignment="Left" Margin="767,583,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/plavi.png"/>
-            </Button.Background>
+        <Button x:Name="btnPlavi3" HorizontalAlignment="Left" Height="35" Margin="492,432,0,0" VerticalAlignment="Top" Width="34" Click="btnPlavi3_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/plavi.png"/>
         </Button>
-        <Button x:Name="pijunPlavi3" Content="" HorizontalAlignment="Left" Margin="835,635,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/plavi.png"/>
-            </Button.Background>
+        <Button x:Name="btnPlavi4" HorizontalAlignment="Left" Height="35" Margin="455,467,0,0" VerticalAlignment="Top" Width="34" Click="btnPlavi4_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/plavi.png"/>
         </Button>
-        <Button x:Name="pijunPlavi4" Content="" HorizontalAlignment="Left" Margin="767,689,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/plavi.png"/>
-            </Button.Background>
+        <Button x:Name="btnCrveni1" HorizontalAlignment="Left" Height="35" Margin="85,432,0,0" VerticalAlignment="Top" Width="34" Click="btnCrveni1_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/crveni.png"/>
         </Button>
-        <Button x:Name="pijunCrveni1" Content="" HorizontalAlignment="Left" Margin="95,635,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/crveni.png"/>
-            </Button.Background>
+        <Button x:Name="btnCrveni2" HorizontalAlignment="Left" Height="35" Margin="122,397,0,0" VerticalAlignment="Top" Width="34" Click="btnCrveni2_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/crveni.png"/>
         </Button>
-        <Button x:Name="pijunCrveni2" Content="" HorizontalAlignment="Left" Margin="163,583,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/crveni.png"/>
-            </Button.Background>
+        <Button x:Name="btnCrveni3" HorizontalAlignment="Left" Height="35" Margin="159,432,0,0" VerticalAlignment="Top" Width="34" Click="btnCrveni3_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/crveni.png"/>
         </Button>
-        <Button x:Name="pijunCrveni3" Content="" HorizontalAlignment="Left" Margin="231,635,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/crveni.png"/>
-            </Button.Background>
+        <Button x:Name="btnCrveni4" HorizontalAlignment="Left" Height="35" Margin="122,467,0,0" VerticalAlignment="Top" Width="34" Click="btnCrveni4_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" IsHitTestVisible="False">
+            <Image Source="/Slike/Pijuni/crveni.png"/>
         </Button>
-        <Button x:Name="pijunCrveni4" Content="" HorizontalAlignment="Left" Margin="163,689,0,0" VerticalAlignment="Top" Height="53" Width="67" IsHitTestVisible="False">
-            <Button.Background>
-                <ImageBrush ImageSource="/Slike/Pijuni/crveni.png"/>
-            </Button.Background>
+        <Button x:Name="btnBaciKocku" HorizontalAlignment="Left" Margin="606,73,0,0" VerticalAlignment="Top" Click="btnBaciKocku_Click" Height="116" Width="116" RenderTransformOrigin="0.501,0.485" BorderBrush="{x:Null}" Foreground="{x:Null}" BorderThickness="0,0,0,0" Background="{x:Null}">
+            <Image Source="/Slike/Kocka/1.png"/>
         </Button>
-        <TextBox x:Name="txtBox" HorizontalAlignment="Left" Margin="430,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBox" HorizontalAlignment="Left" Margin="606,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" TextAlignment="Center"/>
+        <Label Content="Igrač na Potezu:" HorizontalAlignment="Left" Margin="617,26,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

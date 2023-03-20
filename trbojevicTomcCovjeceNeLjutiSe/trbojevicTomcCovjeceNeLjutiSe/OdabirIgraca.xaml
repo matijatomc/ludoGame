@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:trbojevicTomcCovjeceNeLjutiSe"
         mc:Ignorable="d"
-        Title="OdabirIgraca" Height="279" Width="241">
+        Title="OdabirIgraca" Height="279" Width="241" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Koliko će igrača igrati:&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,68,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtIgraci" HorizontalAlignment="Center" Margin="0,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>

@@ -25,15 +25,19 @@ namespace trbojevicTomcCovjeceNeLjutiSe
         }
 
         public int brojIgraca = 0;
+        public bool odustao = false;
 
         private void btnUredu_Click(object sender, RoutedEventArgs e)
         {
-            if (int.TryParse(txtIgraci.Text, out brojIgraca) && brojIgraca > 1 && brojIgraca < 5) { this.Close(); }
+            if (int.TryParse(txtIgraci.Text, out brojIgraca) && brojIgraca > 1 && brojIgraca < 5) {
+                this.Close(); 
+            }
             else { MessageBox.Show("Unesite točan broj."); }
         }
 
         private void btnOdustani_Click(object sender, RoutedEventArgs e)
         {
+            odustao = true;
             this.Close();
         }
     }

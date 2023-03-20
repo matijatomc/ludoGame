@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:trbojevicTomcCovjeceNeLjutiSe"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="btnPocetak" Content="Početak" HorizontalAlignment="Center" Margin="0,115,0,0" VerticalAlignment="Top" Height="34" Width="84" Click="btnPodetak_Click"/>
         <Button x:Name="btnPovijest" Content="Povijest" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" Height="34" Width="84" Click="btnPovijest_Click"/>

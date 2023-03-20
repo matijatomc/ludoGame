@@ -30,7 +30,7 @@ namespace trbojevicTomcCovjeceNeLjutiSe
             Igra igra = new Igra();
             this.Hide();
             igra.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void btnPovijest_Click(object sender, RoutedEventArgs e)

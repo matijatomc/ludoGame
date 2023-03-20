@@ -29,7 +29,9 @@
     <Resource Include="Slike\Kocka\3.png" />
     <Resource Include="Slike\Kocka\4.png" />
     <Resource Include="Slike\Kocka\5.png" />
-    <Resource Include="Slike\Kocka\6.png" />
+    <Resource Include="Slike\Kocka\6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Slike\Kocka\1.png" />
     <Resource Include="Slike\Pijuni\zeleni.png" />
     <Resource Include="Slike\Pijuni\zuti.png" />
